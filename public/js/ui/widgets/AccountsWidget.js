@@ -102,7 +102,7 @@ class AccountsWidget {
    * item - объект с данными о счёте
    * */
   getAccountHTML(item) {
-    console.log(item);
+    //console.log(item);
     return `<li class="account" data-id= ${String(item.id)} >
                 <a href="#">
                     <span> ${item.name}: </span> 

@@ -35,17 +35,20 @@ class TransactionsPage {
    * TransactionsPage.removeAccount соответственно
    * */
   registerEvents() {
-    const removeAccount = document.querySelector(".remove-account");
-    removeAccount.addEventListener("click", (event) => {
-      event.preventDefault();
+    const removeAccountBtn = document.querySelector(".remove-account");
+    removeAccountBtn.addEventListener("click", () => {
       this.removeAccount();
     });
+
     this.element.addEventListener("click", (event) => {
       const transactionRemove = event.target.closest(".transaction__remove");
+      console.log(transactionRemove);
       if (transactionRemove) {
-        const { id } = transactionRemove.dataset;
+        const id = {
+          id: event.target.closest(".transaction__remove").dataset.id,
+        };
+        //console.log(id);
         this.removeTransaction(id);
-        event.preventDefault();
       }
     });
   }
@@ -152,7 +155,7 @@ class TransactionsPage {
    * */
   formatDate(date) {
     let newDate = new Date(date),
-    months = [
+      months = [
         "января",
         "февраля",
         "марта",

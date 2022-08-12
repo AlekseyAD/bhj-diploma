@@ -32,12 +32,17 @@
     {
       "name": "Тест счета",
       "user_id": "1hpe34skl6np45mc",
-      "id": "1hpe395ol6qcprds"
+      "id": "1hpe39ogl6qggp30"
     },
     {
       "name": "Тест счета 2",
       "user_id": "1hpe34skl6np45mc",
-      "id": "1hpe379sl6qdlcoi"
+      "id": "1hpe3bvcl6qggxb3"
+    },
+    {
+      "name": "Тест счета 3",
+      "user_id": "1hpe34skl6np45mc",
+      "id": "1hpe3eqkl6qgh37f"
     }
   ],
   "transactions": [
@@ -177,40 +182,67 @@
       "user_id": "1"
     },
     {
-      "id": "1hpe3e5kl6qcqufi",
+      "id": "1hpe3dtwl6qgfyu2",
       "type": "income",
       "name": "Тест дохода",
-      "sum": 10,
+      "sum": 30,
       "account_id": "1hpe395ol6qcprds",
       "user_id": "1hpe34skl6np45mc",
-      "created_at": "2022-08-12T10:54:28.493Z"
+      "created_at": "2022-08-12T12:37:59.449Z"
     },
     {
-      "id": "1hpe3d80l6qcr5s1",
-      "type": "expense",
-      "name": "Тест расхода",
-      "sum": 5,
-      "account_id": "1hpe395ol6qcprds",
-      "user_id": "1hpe34skl6np45mc",
-      "created_at": "2022-08-12T10:54:43.200Z"
-    },
-    {
-      "id": "1hpe3dp8l6qdltak",
+      "id": "1hpe32rgl6qghhys",
       "type": "income",
-      "name": "Доход 2",
-      "sum": 20,
-      "account_id": "1hpe379sl6qdlcoi",
+      "name": "Тест дохода 1",
+      "sum": 100,
+      "account_id": "1hpe39ogl6qggp30",
       "user_id": "1hpe34skl6np45mc",
-      "created_at": "2022-08-12T11:18:33.355Z"
+      "created_at": "2022-08-12T12:39:10.899Z"
     },
     {
-      "id": "1hpe3e30l6qdm6fk",
+      "id": "1hpe3ccgl6qghvvo",
+      "type": "expense",
+      "name": "Тест расхода 1",
+      "sum": 20,
+      "account_id": "1hpe39ogl6qggp30",
+      "user_id": "1hpe34skl6np45mc",
+      "created_at": "2022-08-12T12:39:28.931Z"
+    },
+    {
+      "id": "1hpe3ep8l6qgib63",
+      "type": "income",
+      "name": "Тест дохода 2",
+      "sum": 200,
+      "account_id": "1hpe3bvcl6qggxb3",
+      "user_id": "1hpe34skl6np45mc",
+      "created_at": "2022-08-12T12:39:48.746Z"
+    },
+    {
+      "id": "1hpe39rsl6qgilfk",
       "type": "expense",
       "name": "Тест расхода 2",
-      "sum": 10,
-      "account_id": "1hpe379sl6qdlcoi",
+      "sum": 40,
+      "account_id": "1hpe3bvcl6qggxb3",
       "user_id": "1hpe34skl6np45mc",
-      "created_at": "2022-08-12T11:18:50.383Z"
+      "created_at": "2022-08-12T12:40:02.047Z"
+    },
+    {
+      "id": "1hpe36eol6qgixw4",
+      "type": "income",
+      "name": "Тест дохода 3",
+      "sum": 300,
+      "account_id": "1hpe3eqkl6qgh37f",
+      "user_id": "1hpe34skl6np45mc",
+      "created_at": "2022-08-12T12:40:18.195Z"
+    },
+    {
+      "id": "1hpe36x0l6qgj7xs",
+      "type": "expense",
+      "name": "Тест расхода 3",
+      "sum": 150,
+      "account_id": "1hpe3eqkl6qgh37f",
+      "user_id": "1hpe34skl6np45mc",
+      "created_at": "2022-08-12T12:40:31.215Z"
     }
   ]
 }
